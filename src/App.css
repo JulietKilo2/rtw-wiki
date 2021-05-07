@@ -106,19 +106,47 @@ span {
   cursor: pointer;
 }
 
-.search-input {
+.search-form {
   margin-top: 1.85rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.search-input {
   font-size: 20px;
   text-align: center;
   padding: 0.35rem 0.75rem;
-  background-color: gold;
-  color: rgb(99, 8, 26);
+  /* background-color: gold; */
+  /* color: rgb(99, 8, 26); */
+  /* border: 1px solid black; */
   border-style: none;
   border-radius: 10px;
 }
 
 .search-entry {
   text-align: center;
+}
+
+.search-select {
+  border-radius: 5px;
+  padding: 0.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.search-btn {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-btn:focus {
+  background-color: goldenrod;
 }
 
 .faction-container {
@@ -140,18 +168,26 @@ span {
 }
 
 .faction-category {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
 }
 
 .faction-category h4 {
   color: goldenrod;
+  flex: 1;
+}
+
+.faction-card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
 }
 
 .faction-card {
-  margin: 10px;
+  margin: 8.5px;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
@@ -189,13 +225,13 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2.5rem;
   margin-top: 3.5rem;
   margin-bottom: 5rem;
 }
 
 /* Card */
 .unit-card {
+  margin: 1.25rem;
   padding: 1.75rem;
   width: 600px;
   /* border: 1px solid #eae0c8; */
@@ -282,5 +318,15 @@ span {
   }
   .card-attr {
     margin-top: 1rem;
+  }
+  .search-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .search-entry {
+    font-size: 14px;
+  }
+  .display-contents {
+    margin-top: 5px;
   }
 }

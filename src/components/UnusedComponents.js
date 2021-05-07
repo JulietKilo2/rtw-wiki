@@ -68,25 +68,23 @@ const Nav = ({
               return (
                 <div className="faction-category" key={index}>
                   <h4>{culture}</h4>
-                  {groupedByCulture.map((item, index) => {
+                  {groupedByCulture.map((item) => {
                     const imgPath = `../imgs/symbols/${item.name}.png`;
                     return (
-                      <div className="faction-card-container" key={index}>
-                        <div
-                          className="faction-card"
-                          key={item.id}
-                          onClick={() => {
-                            changeDisplay(item.name);
-                            setIsExpanded(false);
-                          }}
-                        >
-                          <img
-                            className="faction-symbol"
-                            src={imgPath}
-                            alt={item.name}
-                          />
-                          <p className="faction-name">{item.name}</p>
-                        </div>
+                      <div
+                        className="faction-card"
+                        key={item.id}
+                        onClick={() => {
+                          changeDisplay(item.name);
+                          setIsExpanded(false);
+                        }}
+                      >
+                        <img
+                          className="faction-symbol"
+                          src={imgPath}
+                          alt={item.name}
+                        />
+                        <p className="faction-name">{item.name}</p>
                       </div>
                     );
                   })}

@@ -16,6 +16,7 @@ const Card = ({ info, category }) => {
     faction,
   } = info;
   const imgPath = `./imgs/units/${faction}/${name}.png`;
+
   return (
     <div className="unit-card">
       <h3 className="unit-name">{name}</h3>
