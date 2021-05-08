@@ -15,14 +15,17 @@ const Card = ({ info, category }) => {
     abilities,
     faction,
   } = info;
-  const imgPath = `./imgs/units/${faction}/${name}.png`;
-
+  const unitImgPath = `./imgs/units/${faction}/${name}.png`;
+  const factionImgPath = `./imgs/symbols/${faction}.png`;
   return (
     <div className="unit-card">
-      <h3 className="unit-name">{name}</h3>
+      <div className="unit-name">
+        <h3>{name}</h3>
+        <img className="unit-faction" src={factionImgPath} alt={faction} />
+      </div>
       <div className="card-inner-wrapper">
         <div className="card-img-container">
-          <img src={imgPath} alt={name} />
+          <img className="unit-img" src={unitImgPath} alt={name} />
         </div>
         <div className="card-info">
           <p>morale: {morale}</p>

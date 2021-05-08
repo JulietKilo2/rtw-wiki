@@ -248,6 +248,9 @@ span {
 .unit-name {
   display: inline;
   align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: 2.25px solid gold;
 }
 
@@ -257,8 +260,13 @@ span {
   font-size: 20px;
 }
 
-.unit-card img {
+.unit-img {
   width: 105px;
+}
+
+.unit-faction {
+  width: 20px;
+  margin-left: 5px;
 }
 
 .unit-card p {
