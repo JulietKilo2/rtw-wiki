@@ -26,7 +26,7 @@ const data = [
           { type: "cons", attrs: ["Poor morale"] },
         ],
         thumb: "",
-        faction: "roman",
+        faction: "julii",
       },
       {
         id: 1,
@@ -48,7 +48,7 @@ const data = [
           { type: "pros", attrs: ["Can sap"] },
           { type: "cons", attrs: ["Poor morale", "vulnerable to missiles"] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -80,7 +80,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -110,7 +110,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -141,7 +141,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -172,7 +172,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -206,7 +206,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -240,7 +240,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -274,7 +274,7 @@ const data = [
           { type: "cons", attrs: [] },
         ],
         thumb: "",
-        faction: "roman",
+        faction: "julii",
       },
       {
         id: 9,
@@ -307,7 +307,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -342,7 +342,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -376,7 +376,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -407,7 +407,7 @@ const data = [
           },
           { type: "cons", attrs: ["Vulnerable to missiles"] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -439,7 +439,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -472,7 +472,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -504,7 +504,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -527,7 +527,7 @@ const data = [
           { type: "pros", attrs: ["Frightens elephants", "Fast moving"] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -550,7 +550,7 @@ const data = [
           { type: "pros", attrs: ["Frightens nearby enemy", "Fast moving"] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -576,7 +576,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -602,7 +602,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -633,7 +633,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -664,7 +664,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -695,7 +695,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -727,7 +727,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -753,7 +753,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -779,7 +779,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide"] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -808,7 +808,7 @@ const data = [
             attrs: ["Ineffective against buildings", "Can't hide"],
           },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -837,7 +837,7 @@ const data = [
             attrs: ["Ineffective against buildings", "Can't hide"],
           },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -867,7 +867,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide", "Inaccurate against troops"] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -897,7 +897,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide", "Inaccurate against troops"] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -920,7 +920,7 @@ const data = [
           { type: "pros", attrs: [] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
       {
@@ -954,7 +954,7 @@ const data = [
             attrs: [],
           },
         ],
-        faction: "roman",
+        faction: "julii",
         thumb: "",
       },
     ],
@@ -986,7 +986,7 @@ const data = [
           { type: "cons", attrs: ["Poor morale"] },
         ],
         thumb: "",
-        faction: "roman",
+        faction: "brutii",
       },
       {
         id: 1,
@@ -1008,7 +1008,7 @@ const data = [
           { type: "pros", attrs: ["Can sap"] },
           { type: "cons", attrs: ["Poor morale", "vulnerable to missiles"] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1040,7 +1040,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1070,7 +1070,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1101,7 +1101,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1132,7 +1132,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1166,7 +1166,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1200,7 +1200,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1234,7 +1234,7 @@ const data = [
           { type: "cons", attrs: [] },
         ],
         thumb: "",
-        faction: "roman",
+        faction: "brutii",
       },
       {
         id: 9,
@@ -1267,7 +1267,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1302,7 +1302,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1336,7 +1336,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1367,7 +1367,7 @@ const data = [
           },
           { type: "cons", attrs: ["Vulnerable to missiles"] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1399,7 +1399,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1432,7 +1432,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1464,7 +1464,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1487,7 +1487,7 @@ const data = [
           { type: "pros", attrs: ["Frightens elephants", "Fast moving"] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1510,7 +1510,7 @@ const data = [
           { type: "pros", attrs: ["Frightens nearby enemy", "Fast moving"] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1536,7 +1536,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1562,7 +1562,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1593,7 +1593,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1624,7 +1624,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1655,7 +1655,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1687,7 +1687,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1713,7 +1713,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1739,7 +1739,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide"] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1768,7 +1768,7 @@ const data = [
             attrs: ["Ineffective against buildings", "Can't hide"],
           },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1797,7 +1797,7 @@ const data = [
             attrs: ["Ineffective against buildings", "Can't hide"],
           },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1827,7 +1827,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide", "Inaccurate against troops"] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1857,7 +1857,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide", "Inaccurate against troops"] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1880,7 +1880,7 @@ const data = [
           { type: "pros", attrs: [] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
       {
@@ -1914,7 +1914,7 @@ const data = [
             attrs: [],
           },
         ],
-        faction: "roman",
+        faction: "brutii",
         thumb: "",
       },
     ],
@@ -1946,7 +1946,7 @@ const data = [
           { type: "cons", attrs: ["Poor morale"] },
         ],
         thumb: "",
-        faction: "roman",
+        faction: "scipii",
       },
       {
         id: 1,
@@ -1968,7 +1968,7 @@ const data = [
           { type: "pros", attrs: ["Can sap"] },
           { type: "cons", attrs: ["Poor morale", "vulnerable to missiles"] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2000,7 +2000,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2030,7 +2030,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2061,7 +2061,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2092,7 +2092,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2126,7 +2126,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2160,7 +2160,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2194,7 +2194,7 @@ const data = [
           { type: "cons", attrs: [] },
         ],
         thumb: "",
-        faction: "roman",
+        faction: "scipii",
       },
       {
         id: 9,
@@ -2227,7 +2227,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2262,7 +2262,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2296,7 +2296,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2327,7 +2327,7 @@ const data = [
           },
           { type: "cons", attrs: ["Vulnerable to missiles"] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2359,7 +2359,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2392,7 +2392,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2424,7 +2424,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2447,7 +2447,7 @@ const data = [
           { type: "pros", attrs: ["Frightens elephants", "Fast moving"] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2470,7 +2470,7 @@ const data = [
           { type: "pros", attrs: ["Frightens nearby enemy", "Fast moving"] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2496,7 +2496,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2522,7 +2522,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2553,7 +2553,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2584,7 +2584,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2615,7 +2615,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2647,7 +2647,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2673,7 +2673,7 @@ const data = [
           },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2699,7 +2699,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide"] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2728,7 +2728,7 @@ const data = [
             attrs: ["Ineffective against buildings", "Can't hide"],
           },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2757,7 +2757,7 @@ const data = [
             attrs: ["Ineffective against buildings", "Can't hide"],
           },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2787,7 +2787,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide", "Inaccurate against troops"] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2817,7 +2817,7 @@ const data = [
           },
           { type: "cons", attrs: ["Can't hide", "Inaccurate against troops"] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2840,7 +2840,7 @@ const data = [
           { type: "pros", attrs: [] },
           { type: "cons", attrs: [] },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
       {
@@ -2874,7 +2874,7 @@ const data = [
             attrs: [],
           },
         ],
-        faction: "roman",
+        faction: "scipii",
         thumb: "",
       },
     ],
@@ -4897,7 +4897,7 @@ const data = [
               "armour-piercing(primary weapon)",
             ],
           },
-          { type: "cons", attrs: ["vulnerable to missiles"] },
+          { type: "cons", attrs: [] },
         ],
         thumb: "",
         faction: "seleucid empire",
@@ -5666,33 +5666,3 @@ const data = [
 ];
 
 export default data;
-
-// {
-//     id: "",
-//     name: "",
-//     category: "",
-//     units: []
-// }
-
-// {
-//         id: 0,
-//         name: "",
-//         type: "",
-//         morale: 0,
-//         melee: 1,
-//         missile: 0,
-//         ammo: 0,
-//         range: 0,
-//         total_def: 1,
-//         armour: 0,
-//         def_skill: 1,
-//         shield: 0,
-//         charge: 1,
-//         cost: "",
-//         upkeep: "",
-//         abilities: [
-//           { type: "pros", attrs: [] },
-//           { type: "cons", attrs: [] },
-//         ],
-//         thumb: "",
-// },

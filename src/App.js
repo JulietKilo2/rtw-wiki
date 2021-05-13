@@ -3,6 +3,7 @@ import rawData from "./Data";
 import Nav from "./components/Nav";
 import Search from "./components/Search";
 import Display from "./components/Display";
+import Modal from "./components/Modal";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   const [searchEntry, setSearchEntry] = useState("");
   const [searchResult, setSearchResult] = useState([]);
   const [searchType, setSearchType] = useState("name");
-  const [purgeRomans, setPurgeRomans] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(true);
 
   const unitOnlyDB = [];
   rawData.forEach((item) => {
@@ -19,6 +20,10 @@ function App() {
   });
 
   const temporalArr = [];
+
+  const handleModal = () => {
+    setIsModalOpen(false);
+  };
 
   const changeDisplay = (faction) => {
     const newFaction = rawData.find((item) => {
@@ -80,18 +85,9 @@ function App() {
     setSearchEntry("");
   }, [searchType]);
 
-  useEffect(() => {
-    if (purgeRomans) {
-      rawData.forEach((item) => {
-        if (!item.id === 1 && item.id === 2) unitOnlyDB.push(...item.units);
-      });
-    } else {
-      rawData.forEach((item) => unitOnlyDB.push(...item.units));
-    }
-  }, [purgeRomans]);
-
   return (
     <div className="App">
+      {isModalOpen && <Modal handleModal={handleModal} />}
       <Nav
         data={rawData}
         changeDisplay={changeDisplay}

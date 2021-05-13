@@ -319,6 +319,61 @@ span {
   color: red;
 }
 
+/* Modal */
+.modal-container {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 65%;
+  margin: 0 auto;
+  line-height: 2;
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal h1,
+.modal h3 {
+  text-align: center;
+  color: goldenrod;
+}
+
+.modal li {
+  margin-left: 1.5rem;
+}
+
+.modal p {
+  text-transform: none;
+}
+
+.modal button {
+  width: 125px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+  align-self: center;
+  cursor: pointer;
+  padding: 0.35rem 1rem;
+}
+
+.modal span {
+  color: gold;
+}
+
 /* media queries */
 @media screen and (max-width: 500px) {
   .card-inner-wrapper {
@@ -336,5 +391,13 @@ span {
   }
   .display-contents {
     margin-top: 5px;
+  }
+  .modal {
+    width: 90%;
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+  .modal button {
+    margin-top: 1rem;
   }
 }
